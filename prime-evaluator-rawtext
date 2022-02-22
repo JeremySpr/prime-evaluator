@@ -1,0 +1,22 @@
+
+/**
+ * This Class compiles all prime numbers within a specified range.
+ *
+ * @author (Jeremy S)
+ * @version (0.1.0.1)
+ */
+public class PrimeEvaluator {
+  public static void main(String[] args) {
+    int startNumber = Integer.parseInt(args[0]) ;
+    int endNumber = Integer.parseInt(args[1]) ;
+    while(startNumber <= endNumber) {
+        /** Code for checking startNumber goes here
+           Equation will validate whether it's a prime number or not by dividing that number (x) by
+           every integer between 2 and (x-1). Any number that has a result that passes (has an integer as a result) will be filtered out via an if-then statement.
+           Any integer with no integers as results is added to an array **/
+        int primeCheckNumber = startNumber++;
+        // Same code as previous note but using primeCheckNumber variable instead of startNumber variable
+    }
+  //System.out.println(Array variable name);
+}
+}
